@@ -1,29 +1,56 @@
-# Financial Model: [Fable / Meridian / your initiative]
+# Drive Alignment and Executive Influence, Module 4 Lab
 
-> Module 5 · Master Product Financials & Strategic Bets, ★ Deliverable 5
->
-> The business case for funding your bet, and the explicit kill criteria that would tell you to stop.
+## Write your message
+- **My Hard No from M2 is:** #13 — "Fable for Teams" B2B workplace play. A whole new segment and business model that pulls your 14 people away from the post-acute B2C user you chose to serve; it's a different "where to play," not this quarter's.
+- **The stakeholder I am delivering it to is:** The Growth team lead - whose mandate is expanding Fable's user base and opening new revenue surfaces, and who sees B2B/employer channels as the biggest untapped one.
+- **What they are protecting or optimizing for:** Top-of-funnel and new-market growth. With consumer acquisition flatlined, a B2B motion looks like the cleanest path to a step-change in users and ARR - employer'-paid seats, predictable contract revenue, a defensible growth story. The Growth lead isn't attached to this product; they're attached to finding the next growth engine, and B2B is the obvious candidate to the table.
+- **What stays open for them alongside the no:** "The growth mandate stays fully live — and the acquisition work is explicitly in the strategy, not cut. We're keeping consumer acquisition running because the retention play only compounds if new acute users keep entering the funnel. So your top-of-funnel role is central this quarter; it's the segment and model of B2B specifically that's off, not growth itself."
+- **Your no, stated plainly enough to survive being repeated back:** "We're not building Fable for Teams this quarter. B2B is a different where-to-play — a new segment and business model — and committing 14 people to it means abandoning the post-acute user we chose to serve before we've proven we can retain them. That's not a timing tweak; it's off this quarter's roadmap." (Repeat-back test: the Growth lead can tell their own team "B2B is off this quarter because we haven't yet proven the core retention bet" — accurate, one reason, no ambiguity about whether it might sneak back in.)
+- **Hold firm on the call, stay generous: acknowledge what this costs them:** "I know what this costs you. B2B is the most credible big-growth story you've got, and I'm asking you to hold it while we pour the quarter into a retention bet that's still unproven. That's genuinely hard — you're being measured on growth, and I'm taking your biggest lever off the table for now. I'm not pretending that's a small ask."
+- **The path forward, named specifically:** "Here's what I can commit to. B2B isn't dead, it's sequenced — and the thing that unlocks it is the exact work we're doing now. If we prove post-acute retention this quarter, we walk into B2B with a product that demonstrably keeps employees engaged past 120 days, which is the only version of Fable for Teams an employer actually buys. A B2B play on top of an unproven retention model fails in the pilot. So: we validate retention now, and I'll commit to scoping Fable for Teams properly in the next planning cycle, with your team leading the market case. You get a stronger B2B entry, not a cancelled one."
 
-## 1. Business case
+The move that makes this land: you're reframing the no from refusal to sequencing, and the sequencing argument is genuinely true, not a softener. An employer buys Fable for Teams on the promise of sustained employee engagement — which is precisely the thing your Now bets are trying to prove. So "we can't do B2B yet" and "doing B2B now would make it fail" are the same statement, and that's the version to lead with, because it aligns with the Growth lead's own interest: they don't want to launch a B2B product that dies in pilot either.
 
-_Why this initiative is worth funding over the alternatives. Include the key unit economics assumptions, CAC, LTV, payback period, where relevant._
+One caution, same as before: keep it to the one load-bearing reason — we haven't proven retention, and B2B without it fails. Don't also pile on "and it's off-strategy and we're under-resourced"; a growth lead will argue resourcing all day. The unarguable point is that their own B2B bet needs the retention proof first.
 
-| Assumption | Value | Source / rationale |
-|---|---|---|
-| CAC | _____ | _____ |
-| LTV | _____ | _____ |
-| Payback period | _____ | _____ |
-| Investment required | _____ | _____ |
-| Expected return | _____ | _____ |
+## Audit and finalize
+- **Paste your finalized alignment message here.:** Hi Ben,
 
-> **The case in one paragraph:** _____
+I want to be straight with you about Fable for Teams before the roadmap locks, because you've been the one pushing it and you deserve a direct answer, not a vague "not now."
 
-## 2. Kill criteria
+First, where we agree: we need a growth engine, consumer acquisition has flatlined, and B2B is the most credible big-ticket answer on the table. I'm not disputing any of that. And your mandate isn't getting smaller this quarter — acquisition stays funded and central, because the whole retention thesis only works if new users keep entering the funnel. Your top-of-funnel role is load-bearing right now.
 
-_The specific signals that would tell you this bet is no longer worth pursuing. Be explicit about the metric, the threshold, and the timeline._
+Here's my call: we're not building Fable for Teams this quarter. B2B is a different segment and business model, and committing the team to it now means walking away from the post-acute user we chose to serve before we've proven we can actually retain them. That's not a timing tweak — it's off this quarter's roadmap, and that decision isn't changing this quarter.
 
-> If **[metric]** does not reach **[threshold]** by **[date]**, we will **[decision]**.
+I know what that costs you. It's your strongest growth story, and I'm asking you to hold it while we spend the quarter on a retention bet that's still unproven. You're measured on growth, and I'm taking your biggest lever off the table for now. That's a real ask and I'm not going to pretend otherwise.
 
-## Link to full artifact
+But here's why I think this is the right call for your B2B case specifically, not just for the core product: an employer buys Fable for Teams on one promise — that it keeps their employees engaged over time. That promise is exactly what we're trying to prove this quarter. If we launch B2B on top of a retention model we haven't validated, it dies in the pilot, and a failed pilot sets B2B back a year. Proving post-acute retention first is what would let you walk into employer conversations with evidence instead of a hypothesis.
 
-_[link to this deliverable in your repo]_
+So I want to be precise about what this is: it's a sequenced bet, not a scheduled launch. If we hit the retention proof this quarter, B2B scoping goes into the next planning cycle with your team leading the market case. If we don't, we'll both know B2B isn't ready either — because the same proof an employer needs is the proof we'd be missing. I'm not going to promise you a next-cycle green light I can't back; what I'm committing to is that the retention result decides it, openly, and you're in the room when we read it.
+
+Here's the gate, so it's not a vague "once retention is proven": B2B unlocks if, by end of quarter, day-120 retention of the acute cohort is on track to 35% and day-60 paid retention of post-acute cohorts is moving toward 72%. Those are the numbers an employer pilot would live or die on. Hit them and you have your evidence; miss them and we've saved you a pilot that would have failed. Either way you're not waiting on my judgement — you're waiting on a number we both agreed to.
+
+Let's sit down this week and pressure-test those thresholds together, so the gate is one you'd stake your own B2B case on — not one I set alone.
+
+Celia
+
+## Come prepared
+- **What is my position? (What I am asking for):** The AI check-in layer locked exclusively for retention work this quarter — no Growth experiments touching it until Q4. Full-quarter exclusivity, 13 weeks.
+- **What is my interest? (Why I actually need it):** I need a clean, uninterrupted build window to prove the retention bet — and that's 8 weeks, not 13. Weeks 1–8 are where the check-in layer is being actively built and any Growth experiment would contaminate the signal or destabilise the surface. Weeks 9–13 are integration and testing, where I can tolerate Growth activity running alongside without wrecking the work. What I'm actually protecting is signal integrity during the build, not possession of the asset for a whole quarter. The exclusivity is a means; the uncontaminated 8-week build is the end.
+- **What is my BATNA? (What I will do if this fails):** Escalate to the CPO with a written brief. I'd almost certainly win the resource on the merits — the retention bet is this quarter's priority and the strategic case is strong. But it costs me the relationship with the Growth lead, who I have to keep working with all quarter and into the B2B sequencing conversation that's already live. So my BATNA is strong on outcome, expensive on relationship — which means it's a backstop I'd rather not use, and I should negotiate so I never have to.
+- **What do I think their interest is? (Your best hypothesis):** The Growth lead is measured on experiment velocity and new-growth signal, and the check-in layer is a high-leverage surface for exactly the kind of experiments they run. Their interest isn't owning it — it's not being frozen out of their best experimentation surface for a full quarter with nothing to show their own stakeholders. A 13-week total lockout reads as "Growth gets zero access to the hottest surface in the product for three months," which is what they'll fight. Their underlying need is probably some defined access on a known timeline — not necessarily now, but a credible date and a guarantee it won't slip.
+
+The strategic read this sets up, which is the reason the prep matters: your interest (8 weeks) and your hypothesis about theirs (a guaranteed access date) are compatible, not opposed. You can give them weeks 9–13 — or a firm Q4 start — at no cost to your actual need, and it looks like a concession while costing you nothing. That's the trade to find in the room: lead with the position (13 weeks), discover their real constraint, then "concede" the five weeks you were never going to use in exchange for them dropping the fight and not forcing your BATNA. You walk out with your 8-week build protected and the relationship intact — which is your stated goal, hit on both axes.
+
+## Observe then ask
+- **Write down the most useful thing your partner said in response.:** "Honestly, my experiments on that surface aren't scoped to start until mid-quarter anyway — what I can't accept is being told 'Q4' with no firm date, because I've been burned by 'it'll free up later' before and it never does."
+
+## State disagreements
+- **Option 1:** Exclusive access for the 8-week build window only (weeks 1–8), then the surface opens to Growth experiments during integration/testing (weeks 9–13), under a shared change-control rule so their experiments don't destabilise the test. You get uncontaminated build signal; they get access five weeks earlier than a full-quarter lock would allow, on a firm written date. This is your core trade — it costs you nothing real because weeks 9–13 were never part of your actual need.
+- **Option 2:** Split by component rather than time: Growth gets a defined, walled-off slice of the check-in layer to experiment on throughout the quarter (a non-retention-critical surface, or a held-out user segment excluded from your retention cohort), while the retention-critical path stays locked. Both of you run concurrently without contaminating each other, because you're measuring different users. Useful if their experiments genuinely can't wait until week 9 — it trades time-sharing for space-sharing.
+- **Option 3 (if you find one):** Keep the 8-week lock, but co-design the measurement so Growth gets early visibility into the retention data as it comes in, and a pre-agreed set of their experiment questions gets answered by your build data. They're not experimenting on the surface, but they're not flying blind for 8 weeks either — they get signal to take to their stakeholders, and their Q4 experiments launch better-targeted because they've seen your results. This trades access to the asset for access to the learning, which may be what they actually need.
+
+## Invite new options
+- **What we agreed:** The strong landing, given everything set up across these rounds: Growth gets exclusive retention-lock on the check-in layer for the 8-week build window (weeks 1–8), the surface opens to Growth experiments for weeks 9–13 under shared change-control, and the agreement is written down with the dates firm — no "Q4, we'll see." That's Option 1, and it hits both halves of your stated goal: the 8-week build is protected and the relationship survives because you never forced the BATNA. If you also gave them early visibility into the retention data (Option 3 folded in), even better — that's pure relationship surplus at no cost to you. Write the actual terms you landed, not this ideal, but this is the shape of a win.
+- **If we did not agree, what was the blocking issue?:** If it stalled, the blocker is almost certainly one of two things, and they're diagnostically different. Either: they needed to run experiments during your weeks 1–8 specifically (a real timeline conflict — then Option 2, space-sharing, was the unused key), or: they didn't trust the week-9 date would hold (a trust problem, not a scheduling one — then the fix was never a better option, it was putting the date in writing with a consequence attached). Name which it was, because they call for opposite responses. If you're writing this field at all, the question to answer is: was it a constraint we couldn't reconcile, or distrust that no option could fix?
+- **Did you share your full interest, or only your position?:** I held my full interest back until the end and led with the position
