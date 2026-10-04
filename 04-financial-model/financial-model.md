@@ -1,51 +1,33 @@
-# Master Product Financials & Strategic Bets, Module 5 Lab
+# Financial Model: Fable Growth — AI Daily Check-In Layer
 
-## Make your evaluation and funding decision
-- **What assumption is doing the most work? If this number is 20-30% off, what changes?:** The case says it's the 4% individual-to-team conversion, and that's correct — it's the multiplier everything runs through. At 4% of 3,000 weekly-actives you get 120 converting users; at 20–30% off (2.8–3.2%), that drops to 84–96 users, and Q1 net-new ARR falls from $103,680 to roughly $72,600–$82,900. More important than the ARR dent: the kill criterion is set at 3%, which is the bottom of that 20–30% error band. So a conversion rate only modestly below plan doesn't just shrink returns — it breaches the kill line. The headline case and the failure case are 1 percentage point apart, which means the bet has almost no margin on its single load-bearing number.
-- **What is the structural problem in this case? Look past the headline numbers for something that does not hold up on closer inspection.:** The $864-per-converting-user figure is miscounted, and it inflates the whole case. The case treats each converting individual as generating $864 ($12 × 6 × 12) — but $864 is the revenue of an entire 6-seat team, not of one user. The converting individual isn't buying 6 seats for themselves; they're bringing in a team whose other 5 seats are new people. So "120 converting users → $103,680" is double-counting the unit: either you count 120 teams (which requires 120 separate wellness leads each converting, a much taller order than 4% of individuals) or you count the revenue per seat, but you can't attach full-team revenue to each individual converter and then scale it by all converters. There's also a CAC mismatch underneath it: payback is calculated as 4.7 months against the $38 CAC of one individual, but the revenue being paid back is a 6-person team's — you're comparing the acquisition cost of one seat to the revenue of six. The real blended CAC has to account for whether the other 5 seats were also acquired at ~$38 each, which would push payback out materially.
-- **Is the kill criterion complete and actionable? Does it name the consequence, or hand the decision back to the room?:** Partially — it's better than most, but it hands the decision back to the room at the critical moment. It names a clear metric (individual-to-team conversion), a threshold (3%), and a date (end of Q2), which is the hard part done well. But the consequence is "the go-to-market approach is reassessed before Q3 headcount is committed" — and reassess is not a decision, it's a meeting. A complete kill criterion says what stops: "we do not commit Q3 headcount and we redirect the budget to X." As written, you could hit 2.5% conversion, trigger the criterion, and still talk yourself into continuing — which is exactly the failure a kill criterion exists to prevent. It needs a default action, not a default discussion.
-- **Your verdict: FUND / FUND WITH ONE CONDITION / DO NOT FUND. If a condition, name it; otherwise explain in one sentence.:** The condition: re-baseline the unit economics on a per-team basis before any funding releases — count 120 teams not 120 users, blend the CAC across all 6 seats, and re-run payback on that corrected figure; fund only if payback still clears a defensible bar (roughly under 12 months) on the honest math. The strategic logic is sound and the organic-adoption motion is genuinely cheaper than cold B2B — but the headline numbers rest on a counting error that overstates per-converter revenue, and the 1-point gap between plan (4%) and kill (3%) means you cannot fund on figures you haven't corrected. Fix the denominator, harden the kill criterion to name its consequence, and it's fundable.
+> Module 5 · Master Product Financials & Strategic Bets, ★ Deliverable 5
+>
+> The business case for funding your bet, and the explicit kill criteria that would tell you to stop.
 
-## Write your business case
-- **The strategic bet. What specific outcome are you backing, who does it serve, and what is the mechanism that connects the product decision to a financial result?:** I'm backing the outcome that AI daily check-ins, built on each user's acute-phase behavioural history, convert post-acute users from crisis-only visitors into habitual proactive users — the single behaviour that the entire resilience thesis depends on. It serves the high-engagement acute cohort at the 60–120 day transition, the exact users who currently resolve their crisis and churn. The mechanism to a financial result runs in three links: proactive check-ins lift the proactive-use ratio (KR2) → higher proactive use carries more users past the day-120 retention cliff (KR1) → users retained past day 120 are the ones who sustain a paid subscription, raising paid retention (KR3) and therefore LTV. The product decision (build check-ins) connects to money through retention of already-acquired users, which raises LTV without spending another dollar of CAC — the cheapest growth there is.
-- **The assumptions. List the assumptions your case rests on, then rank them: which one, if wrong, most changes your conclusion?:** 1. Check-ins actually shift the proactive-use ratio (the thesis itself — assume 15%→40%, KR2). Most load-bearing: if this is wrong, nothing downstream happens and the bet is dead. Everything else is sensitivity; this is existence.
-2. Proactive use causally lifts day-120 retention (assume the lift moves KR1 22%→35%). Second-most weighted: the check-ins could raise proactive sessions without those sessions translating into retention — engagement that doesn't stick.
-3. Retained post-acute users convert to / sustain paid (day-60 paid retention 60%→72%, KR3). This is where retention becomes revenue.
-4. The lift justifies the build cost — the retention gain must exceed the engineering investment. Least likely to break, but the one that sets the funding bar.
-- **The expected return. What does the bet generate and when? Express it at unit level (per customer) and at scale (what volume hits target).:** Unit level: the bet raises LTV per retained post-acute user, not new-acquisition revenue. If day-120 retention moves 22%→35%, that's 13 additional percentage points of the acute cohort surviving into the paid post-acute phase. At an illustrative premium price of ~$10/month and the KR3 paid-retention lift, each additional retained user is worth roughly $60–$120 in first-year subscription revenue depending on how long they stay — replace this with Fable's real ARPU. The critical economic point: these users carry near-zero incremental CAC because you already acquired them during the acute phase, so the return is almost pure margin against the build cost.
+_All figures marked "illustrative" are placeholders for this exercise, not drawn from real Fable data; replace before presenting to a board._
 
-At scale: the volume that hits target is the acute cohort size × 13 incremental retention points. If, say, 3,000 users reach the 60–120 day transition per quarter, 13 points is ~390 additional retained users per quarter; at ~$90 illustrative first-year value, that's ~$35,000 net-new recurring revenue per quarterly cohort, compounding as cohorts stack — against a one-time build cost of roughly one quarter of a small pod (3–4 people). The exact break-even volume depends on your real ARPU and loaded team cost — those are the two numbers to pin before this goes to a board.
-- **The kill criterion. Name the specific metric, threshold, timeline, and financial consequence that tells the team to stop. Actionable, not a conversation.:** If the proactive-use ratio among post-acute users has not reached 25% (from a 15% baseline, i.e. at least halfway to the 40% target) by end of Q2, we stop the check-in build, reallocate the pod to the onboarding/retention-surface work, and do not commit Q3 headcount to personalisation — the resilience thesis is treated as unproven and the budget redirects to the acquisition+win-back fallback already named in the strategy.
+## 1. Business case
 
-## Stress-test and finalize
-- **Paste your finalized business case here.:** THE BET
-Build AI daily check-ins personalised on each user's acute-phase behavioural history, to convert post-acute users (the 60–120 day transition) from crisis-only visitors into habitual proactive users. The mechanism runs: check-ins lift the proactive-use ratio (KR2), proactive use carries more users past the day-120 retention cliff (KR1), and retained users sustain paid subscriptions (KR3), raising LTV. The financial engine is retention of already-acquired users — growth at near-zero incremental CAC, the cheapest kind.
+_Why this initiative is worth funding over the alternatives. Includes the key unit-economics assumptions — CAC, LTV, payback — framed for a retention bet rather than an acquisition one._
 
-UNIT ECONOMICS 
+| Assumption | Value | Source / rationale |
+|---|---|---|
+| CAC | $38 per acute user *(illustrative)* | Already spent during the acute phase — incremental CAC for the retained post-acute user is ≈ $0. |
+| LTV | $240 *(illustrative)* | $96/yr contribution (ARPU $120/yr × 80% margin) × 2.5-year lifetime at 40% annual churn. LTV:CAC = 6.3:1. |
+| Payback period | **Build payback ~4.7 quarters** at plan *(illustrative)* | The true financial risk. CAC payback (~4.7 months) is near-irrelevant here — these users aren't re-acquired; the ~$175k build is what must earn back. |
+| Investment required | ~$175k one-time *(illustrative)* | ~3.5-person pod for one quarter to build the check-in layer. |
+| Expected return | ~$37k first-year contribution per quarterly cohort, compounding *(illustrative)* | A 13-point retention lift (22%→35%) across a ~3,000-user cohort = ~390 additional retained users/quarter × ~$96/yr, stacking as cohorts accumulate. |
 
-ARPU: $120/yr ($10/mo) — replace
-Contribution margin: 80%, or $96/yr — replace
-Annual churn (bet working): 40%, giving a 2.5-year lifetime
-LTV: $240
-CAC (acute user, already spent in acute phase): $38 — replace
-LTV:CAC: 6.3:1
-Build cost (one-time, ~3.5-person pod for one quarter): ~$175k — replace
+> **The case in one paragraph:** Build AI daily check-ins personalised on each user's acute-phase behavioural history to convert post-acute users (the 60–120 day transition) from crisis-only visitors into habitual proactive users. The mechanism to a financial result runs in three links: check-ins lift the proactive-use ratio (KR2) → proactive use carries more users past the day-120 retention cliff (KR1) → retained users sustain paid subscriptions (KR3), raising LTV. The economic strength is that this is **retention of users already acquired**, so growth comes at near-zero incremental CAC — the cheapest kind. Unit economics are robust under stress: LTV:CAC holds at 5.0:1 even with churn 10 points higher (above the 3:1 bar), and CAC payback stays at 5.7 months even at 20% higher CAC. The single real exposure is the 13-point retention lift itself — if it comes in 30% soft, build payback stretches from ~4.7 to ~6.7 quarters — and that risk is fenced by the kill criterion below. This beats the funded alternatives (more content, B2B, a clinical tier) because it lifts LTV on users we have already paid to acquire, rather than buying new ones.
 
-EXPECTED RETURN
-Per unit: each additional retained post-acute user is worth ~$96/yr contribution at near-zero incremental CAC. At scale: a 13-point retention lift (22% to 35%) across a ~3,000-user quarterly cohort equals ~390 additional retained users per cohort, ~$37k first-year contribution per cohort, compounding as cohorts stack. The headline number that matters: build payback of ~4.7 quarters at plan — this is the true financial risk, not CAC payback.
+## 2. Kill criteria
 
-ASSUMPTIONS, RANKED BY WEIGHT
+_The specific signals that would tell us this bet is no longer worth pursuing — metric, threshold, timeline, and a default action, not a conversation._
 
-Check-ins shift the proactive-use ratio (15% to 40%) — the thesis itself; if wrong, the bet is dead.
-Proactive use causally lifts day-120 retention (22% to 35%) — the volume driver.
-Retained users sustain paid (day-60 paid retention 60% to 72%) — where retention becomes revenue.
-The retention gain exceeds the ~$175k build cost — sets the funding bar.
+> If the **proactive-use ratio among post-acute users** does not reach **25%** (halfway from the 15% baseline to the 40% target) by **end of Q2**, we will **stop the check-in build, reallocate the pod to onboarding/retention-surface work, withhold Q3 personalisation headcount, and redirect the budget to the acquisition + win-back fallback.**
+>
+> _Second (confirming) gate:_ because the kill metric above is leading, not financial, a **paid-retention review at the annual mark** tests whether the proactive→paid link held; clearing the first gate without the second triggers a review of that link, not continuation on faith.
 
-STRESS-TEST RESULTS (CFO review)
-LTV:CAC holds at 5.0:1 even with churn 10 points higher (above the 3:1 bar). Payback is 5.7 months even at 20% higher CAC. Both robust. Real exposure is isolated to assumption 1 and to build-cost payback, which stretches to ~6.7 quarters if the retention lift comes in 30% soft.
+## Link to full artifact
 
-KILL CRITERION
-If the proactive-use ratio among post-acute users has not reached 25% (halfway to target) by end of Q2, we stop the build, reallocate the pod to onboarding/retention-surface work, and withhold Q3 personalisation headcount — budget redirects to the acquisition and win-back fallback. Scored 4/4 (names a specific metric, number, timeline, and financial consequence). Second gate: a paid-retention confirmation review at the annual mark, since the kill metric is leading, not financial.
-
-VERDICT
-Approve. Unit economics are robust; the single real risk (the 13-point retention lift) is cleanly fenced by a well-formed kill criterion, with the true exposure correctly framed as build-cost payback rather than CAC.
+_[link to this deliverable in your repo]_
